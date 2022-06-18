@@ -1,9 +1,11 @@
 import React from 'react'
 import List from './List';
 import { useState } from "react";
+import { Link } from 'react-router-dom'
+
 
 const Header = props => {
-    const [list, setList] = useState([<a href="#about">About</a>,<a href="#features">Features</a>,<a href="devices.html">Downloads</a>,<a href="#maintain">Maintain</a>]);
+    const [list, setList] = useState(props.data);
     return (
         <div>
             <header id="header">

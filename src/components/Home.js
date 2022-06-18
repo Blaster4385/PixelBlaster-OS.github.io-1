@@ -7,13 +7,16 @@ import { useState } from "react";
 
 const Home = () => {
     const [list, setList] = useState(["A","B","C"]);
+    const [header_list] = useState([<a href="#about">Abouts</a>,<a href="#features">Features</a>,<a href="/downloads">Downloads</a>,<a href="#maintain">Maintain</a>]);
+
     return (
 
         <div className="is-preload">
             <div id="wrapper">
                 <Header
                     title="PixelBlaster-OS"
-                    description="Get Ready to explode your device." />
+                    description="Get Ready to explode your device."
+                    data={header_list} />
                 <div id="main">
                     <Article
                         id="about"
