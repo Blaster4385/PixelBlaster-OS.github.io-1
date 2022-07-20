@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pb-web-test/static/css/main.06d2415f.css",
+    "main.js": "/pb-web-test/static/js/main.7fbedc5c.js",
+    "index.html": "/pb-web-test/index.html",
+    "main.06d2415f.css.map": "/pb-web-test/static/css/main.06d2415f.css.map",
+    "main.7fbedc5c.js.map": "/pb-web-test/static/js/main.7fbedc5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06d2415f.css",
+    "static/js/main.7fbedc5c.js"
+  ]
+}
